@@ -9,12 +9,13 @@ export default function Main() {
         <div className="row row-cols-1 g-4">
           {posts
             .filter((post) => post.published === true)
-            .map((post) => (
+            .map((post, index) => (
               <Card
-                key={post.id}
+                key={index}
                 id={post.id}
                 title={post.title}
                 content={post.content}
+                tags={post.tags}
               />
             ))}
         </div>
