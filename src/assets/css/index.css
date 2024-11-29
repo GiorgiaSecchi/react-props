@@ -27,6 +27,10 @@ h1 {
   max-width: 600px;
 }
 
+.card-text {
+  margin-top: 1.5rem;
+}
+
 .button {
   background-color: goldenrod;
   color: white;
@@ -45,6 +49,7 @@ footer {
   padding: 2rem 0;
 }
 
-p {
-  margin: 0;
+footer p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
