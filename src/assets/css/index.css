@@ -1,0 +1,50 @@
+/* INDEX.CSS --> QUI REGOLE DI STILE GLOBALI */
+
+body {
+  background-color: gainsboro;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* HEADER */
+
+h1 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* MAIN */
+
+.card {
+  max-width: 600px;
+}
+
+.button {
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  border-radius: 0;
+  font-size: 0.8rem;
+  padding: 10px 20px 10px 20px;
+}
+
+/* FOOTER */
+footer {
+  background-color: rgb(61, 61, 61);
+  color: white;
+  margin-top: auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+p {
+  margin: 0;
+}
