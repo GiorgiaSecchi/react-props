@@ -7,7 +7,9 @@ export default function Main() {
     <main>
       <div className="container">
         <div className="row row-cols-1 g-4">
-          <Card />
+          {posts.map((posts) => (
+            <Card />
+          ))}
         </div>
       </div>
     </main>
