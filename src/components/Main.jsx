@@ -1,6 +1,6 @@
 import Card from "./Card.jsx";
-import posts from "../data/posts.jsx";
-// console.log(posts);
+import { posts } from "../data/posts.jsx";
+console.log(posts);
 
 export default function Main() {
   return (

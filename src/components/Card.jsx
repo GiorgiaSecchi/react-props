@@ -1,11 +1,12 @@
 import Button from "./Button";
+import placeholderImg from "../assets/img/img_600x400.jpg";
 
 export default function Card() {
   return (
     <div className="col">
       <div className="card mx-auto shadow rounded-4">
         <img
-          src="src\assets\img\600x400.jpg"
+          src={placeholderImg}
           className="card-img-top rounded-top-4"
           alt="..."
         />
