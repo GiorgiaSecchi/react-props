@@ -7,14 +7,16 @@ export default function Main() {
     <main>
       <div className="container">
         <div className="row row-cols-1 g-4">
-          {posts.map((post) => (
-            <Card
-              key={post.id}
-              id={post.id}
-              title={post.title}
-              content={post.content}
-            />
-          ))}
+          {posts
+            .filter((post) => post.published === true)
+            .map((post) => (
+              <Card
+                key={post.id}
+                id={post.id}
+                title={post.title}
+                content={post.content}
+              />
+            ))}
         </div>
       </div>
     </main>
