@@ -45,7 +45,7 @@ main .container {
   padding: 10px 20px 10px 20px;
 }
 
-.tags {
+.tag {
   padding: 5px 10px;
   border-radius: 5px;
   margin-right: 5px;
@@ -58,19 +58,19 @@ main .container {
   /* display: inline-block; */
 }
 
-.tags.html {
+.tag.html {
   background-color: tomato;
 }
 
-.tags.css {
+.tag.css {
   background-color: royalblue;
 }
 
-.tags.js {
+.tag.js {
   background-color: gold;
 }
 
-.tags.php {
+.tag.php {
   background-color: lightseagreen;
 }
 

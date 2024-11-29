@@ -16,7 +16,7 @@ export default function Card({ id, title, image, content, tags, published }) {
           <Button />
           <div className="text-end">
             {tags.map((tag, index) => (
-              <span keys={index} className={`tags ${tag}`}>
+              <span keys={index} className={`tag ${tag}`}>
                 {tag}
               </span>
             ))}
