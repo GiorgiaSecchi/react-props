@@ -1,5 +1,5 @@
 import Card from "./Card.jsx";
-import { posts } from "../data/posts.jsx";
+import posts from "../data/posts.jsx";
 console.log(posts);
 
 export default function Main() {
@@ -7,8 +7,13 @@ export default function Main() {
     <main>
       <div className="container">
         <div className="row row-cols-1 g-4">
-          {posts.map((posts) => (
-            <Card />
+          {posts.map((post) => (
+            <Card
+              key={post.id}
+              id={post.id}
+              title={post.title}
+              content={post.content}
+            />
           ))}
         </div>
       </div>
